@@ -85,6 +85,8 @@ KYCExpert.startKYC(code: <Kagii response code>) { kycResult in
 ```
 
 #### KYCExpertError
+KYCExpertError is the enumeration which is returned in case of failure in the `KYCExpert.startKYC` call.
+
 ```swift
 public enum KYCExpertError: Error {
     case error(String)
@@ -92,6 +94,8 @@ public enum KYCExpertError: Error {
 ```
 
 #### KYCExpertStatus
+KYCExpertStatus is the enumeration which is returned in the successfull case in the `KYCExpert.startKYC` call.
+
 ```swift
 public enum KYCExpertStatus: String {
     case started
@@ -112,6 +116,8 @@ public enum KYCExpertStatus: String {
 ```
 
 ### Integration with Kagii
+This is an example where KYCExpert SDK is integrated together with the [Kagii SDK](https://github.com/Sedicii/Kagii-iOS). The `reponse.code` received from Kagii SDK is used as input for the initialisation of the KYCExpert SDK.
+
 
 ```swift
 Kagii.userInterface.logInUser { kagiiResult in
