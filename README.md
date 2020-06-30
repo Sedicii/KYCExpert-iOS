@@ -148,3 +148,21 @@ Defining the appearance. This is way to define your own appearance.
 ```swift
 KYCExpert.appearance = ClientAppearance.appearance
 ```
+
+
+### Logging
+
+Also, it is allowed the definition of the logging level as follows:
+```swift
+KYCExpert.loggerLevel = .none
+```
+
+where the logging levels are:
+```swift
+    case none
+    case error
+    case warning
+    case info
+    case debug
+    case trace
+```
