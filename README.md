@@ -31,7 +31,6 @@ This framework can be included in your project with [__Carthage__](https://githu
 
 ```
 github "Sedicii/KYCExpert-iOS"
-github "marmelroy/PhoneNumberKit"
 github "Alamofire/Alamofire" ~> 5.2
 github "Alamofire/AlamofireImage" ~> 4.1
 github "tristanhimmelman/ObjectMapper" ~> 4.2
